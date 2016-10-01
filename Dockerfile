@@ -1,4 +1,5 @@
 FROM ruby:2.3
+MAINTAINER Alexander Andreev <cinic.rus@gmail.com>
 
 COPY .rubocop.yml /root/.rubocop.yml
 
