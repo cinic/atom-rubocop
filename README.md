@@ -9,7 +9,7 @@
 *   Install Atom
 *   Install the linter and linter-rubocop atom packages
 *   Create the following file **/usr/local/bin/rubocop**:
-    ```sh
+    ```bash
     #!/bin/bash
 
     docker run --rm -v $(pwd):/app cinicrus/atom-rubocop --format json --display-cop-names --fail-level F --display-style-guide --extra-details
