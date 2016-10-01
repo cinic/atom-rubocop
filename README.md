@@ -12,6 +12,6 @@
     ```sh
     #!/bin/bash
 
-    docker run --rm -v $(pwd):/app rubocop --format json --display-cop-names --fail-level F --display-style-guide --extra-details
+    docker run --rm -v $(pwd):/app cinicrus/atom-rubocop --format json --display-cop-names --fail-level F --display-style-guide --extra-details
     ```
 *   Make it executable: `sudo chmod +x /usr/local/bin/rubocop`
